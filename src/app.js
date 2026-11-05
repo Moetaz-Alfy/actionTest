@@ -4,6 +4,6 @@ function greet(name) {
 
 module.greet = greet;
 
-if (require.main === module) {
-  console.log(greet(name));
-}
+// if (require.main === module) {
+//   console.log(greet(name));
+// }
